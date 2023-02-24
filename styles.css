@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    position: relative;
+    max-width: 355px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px 30px 30px 30px;
+    background: hsl(216, 50%, 16%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    overflow: hidden;
+
+}
+
+.card .qr-code img {
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card .card-details {
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 1rem;
+    
+}
+
+.card .card-details .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+
+}
+
+.card .card-details p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #636186;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.card .card-details-span {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #636186;
+    margin-bottom: 1.5rem;
+    
+}
+
+.card-details-span span {
+    margin-left: -5.5rem;
+}
+
+.card-details-span img {
+    height: 20px;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+}
+
+.line-1 {
+    height: 1px;
+    background: #636186;
+    margin-top: 2rem;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    color: #636186;
+    font-family: 'Outfit', sans-serif;
+    font-size: 300;
+}
+
+footer img {
+    width: 40px;
+    cursor: pointer;
+}
+
+footer b {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+footer p {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
